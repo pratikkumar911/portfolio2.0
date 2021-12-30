@@ -84,7 +84,8 @@ function About() {
             <a href="https://github.com/pratikkumar911" target="_blank" rel = "noreferrer"><abbr title="My Github" className="fab fa-github"></abbr></a>
             <a href="https://dev.to/pratik_kumar" target="_blank" rel = "noreferrer"><abbr title="My Dev" className="fab fa-dev"></abbr></a> 
             <a href="https://www.linkedin.com/in/pratik-kumar-4675761aa/" target="_blank" rel = "noreferrer"><abbr title="My LinkedIn" className="fab fa-linkedin"></abbr></a>
-            <a href="https://codepen.io/pratik-kumar-the-lessful" target="_blank" rel = "noreferrer"><abbr title="My Codepen" className="fab fa-codepen"></abbr></a>              <a href="https://drive.google.com/file/d/1UcoajBIibaKFu-AWzA6AKVaNE5DYSyOF/view?usp=sharing" target="_blank" rel = "noreferrer"><abbr title="My Resume" className="far fa-file-pdf"></abbr></a>
+            <a href="https://codepen.io/pratik-kumar-the-lessful" target="_blank" rel = "noreferrer"><abbr title="My Codepen" className="fab fa-codepen"></abbr></a>              
+            <a href="https://drive.google.com/file/d/1Rm2tzRxSZfUxvCzoPicT1hDIZ07i7p-F/view?usp=sharing" target="_blank" rel = "noreferrer"><abbr title="My Resume" className="far fa-file-pdf"></abbr></a>
             <a href="https://leetcode.com/loopinfinity0/" target="_blank" rel = "noreferrer"><abbr title="My Leetcode" className="fas fa-code"></abbr></a>
         </div>
     </div>
