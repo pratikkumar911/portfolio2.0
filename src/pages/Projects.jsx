@@ -14,7 +14,7 @@ function Projects() {
     
     let projects =[{
         projectname: 'Co-Vax',
-        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/147739821-3c2b33d0-3ca6-4d57-9a93-e5119ca0394a.png',
+        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/147767998-0e178565-5745-4a33-9e50-0eee53d1eadd.png',
         projectdesc: 'Co-Vax is a website that helps people to find nearby vaccination center.',
         github: 'https://github.com/pratikkumar911/covax',
         website: 'https://co-vax-savelives.netlify.app/',
@@ -49,7 +49,7 @@ function Projects() {
         tools: ['ReactJS'],
     },{
         projectname: 'Gradient Generator',
-        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/147679418-411749a0-78a7-4a56-917e-e886687b6135.png',
+        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/147767947-43dc44fe-b84a-4063-bb20-e9db6a26317f.png',
         projectdesc: 'Generates gradients of two colurs with various shades.',
         github: 'https://github.com/pratikkumar911/gradient',
         website: 'https://colorgradient.herokuapp.com/',

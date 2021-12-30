@@ -12,8 +12,8 @@ function SingleProject(props) {
             </div>
             <div className="project-desc">{props.projectdesc}</div>
             <div className="project-links">
-                <a href={props.github} target="_blank" rel = "noreferrer"><abbr title="Github Repo" className="fab fa-github"></abbr><span>Repo</span></a>
-                <a href={props.website} target="_blank" rel = "noreferrer"><abbr title="Project Website" className="fas fa-external-link-alt"></abbr><span>Website</span></a>
+                <a href={props.github} target="_blank" rel = "noreferrer"><abbr title="Github Repo" className="fab fa-github"><span> Repo</span></abbr></a>
+                <a href={props.website} target="_blank" rel = "noreferrer"><abbr title="Project Website" className="fas fa-external-link-alt"><span> Visit</span></abbr></a>
             </div>
         </div>
     )
