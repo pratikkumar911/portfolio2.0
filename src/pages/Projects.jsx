@@ -4,7 +4,6 @@ import SingleProject from '../components/SingleProject';
 
 function Projects() {
     React.useEffect(() => {
-        document.title = "Projects - Pratik Codes 🔖";
         document.querySelectorAll('.tabs a').forEach((e, index) => {
             if (index !== 1)
                 e.classList.remove('open');

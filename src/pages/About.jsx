@@ -9,7 +9,6 @@ function About() {
   const [fontSize, setFontSize] = React.useState(24);
 
   React.useEffect(() => {
-    document.title = "About Me - Pratik Codes 🔖";
     document.querySelectorAll('.tabs a').forEach((e, index) => {
       if (index !== 0)
         e.classList.remove('open');
