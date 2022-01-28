@@ -62,10 +62,10 @@
 }
 
 .socials {
-    max-width: 70%;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(6, 1fr);
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
 }
 
 .socials * {
