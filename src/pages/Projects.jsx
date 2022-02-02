@@ -28,7 +28,7 @@ function Projects() {
         tools: ['ReactJS', 'Tailwind CSS', 'Framer Motion'],
     },{
         projectname: 'Moodly',
-        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/133872202-f9ea17e9-37c4-429b-a8ac-28bf30a3a040.png',
+        projectthumbnail: 'https://user-images.githubusercontent.com/77845945/152189229-76d96529-1593-4950-a641-7c5c76cc4f06.png',
         projectdesc: 'A music player where you can choose your own theme.',
         github: 'https://github.com/pratikkumar911/Moodly',
         website: 'https://chill-lofi.vercel.app/',

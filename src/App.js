@@ -23,7 +23,7 @@ function App() {
                 <a href="https://dev.to/pratik_kumar" target="_blank" rel = "noreferrer"><abbr title="My Dev" className="fab fa-dev"></abbr></a> 
                 <a href="https://www.linkedin.com/in/pratik-kumar-4675761aa/" target="_blank" rel = "noreferrer"><abbr title="My LinkedIn" className="fab fa-linkedin"></abbr></a>
                 <a href="https://codepen.io/pratik-kumar-the-lessful" target="_blank" rel = "noreferrer"><abbr title="My Codepen" className="fab fa-codepen"></abbr></a>
-                <a href="https://drive.google.com/file/d/1t2Z2DFSpBj5zs7HqnZU4oJlyyWzeuyu8/view?usp=sharing" target="_blank" rel = "noreferrer"><abbr title="My Resume" className="far fa-file-pdf"></abbr></a>
+                <a href="https://drive.google.com/file/d/1wWTwPkGieu_lVPer4_lAbhqjgo70AcMa/view?usp=sharing" target="_blank" rel = "noreferrer"><abbr title="My Resume" className="far fa-file-pdf"></abbr></a>
                 <a href="https://leetcode.com/loopinfinity0/" target="_blank" rel = "noreferrer"><abbr title="My Leetcode" className="fas fa-code"></abbr></a>
               </div>
             </div>
