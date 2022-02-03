@@ -27,9 +27,9 @@ function Projects() {
         website: 'https://sigma-rule-69.netlify.app/',
         tools: ['ReactJS', 'Tailwind CSS', 'Framer Motion'],
     },{
-        projectname: 'Moodly',
+        projectname: 'Chill',
         projectthumbnail: 'https://user-images.githubusercontent.com/77845945/152189229-76d96529-1593-4950-a641-7c5c76cc4f06.png',
-        projectdesc: 'A music player where you can choose your own theme.',
+        projectdesc: 'A music player(moodly website clone) where you can choose your own theme.',
         github: 'https://github.com/pratikkumar911/Moodly',
         website: 'https://chill-lofi.vercel.app/',
         tools: ['NextJS', 'Tailwind CSS'],
