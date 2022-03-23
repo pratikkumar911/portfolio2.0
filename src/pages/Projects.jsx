@@ -31,7 +31,7 @@ function Projects() {
         projectthumbnail: 'https://user-images.githubusercontent.com/77845945/152189229-76d96529-1593-4950-a641-7c5c76cc4f06.png',
         projectdesc: 'A music player(moodly website clone) where you can choose your own theme.',
         github: 'https://github.com/pratikkumar911/Moodly',
-        website: 'https://chill-lofi.vercel.app/',
+        website: 'https://chill-lofi.netlify.app/',
         tools: ['NextJS', 'Tailwind CSS'],
     },{
         projectname: 'Portfolio 1.0',
