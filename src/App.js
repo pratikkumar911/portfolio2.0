@@ -15,8 +15,8 @@ function App() {
             <div className="background"></div>
             <div className="background-shade"></div>
             <div className="profile-container">
-              <div className="profile-name">Pratik Kumar - Ex Amazon</div>
-              <div className="profile-desc">Web Developer & Loves Leetcode Damn so much...</div>
+              <div className="profile-name">Pratik Kumar-JumpCloud</div>
+              <div className="profile-desc">Web Developer</div>
               <br />
               <div className="socials">
                 <a href="https://github.com/pratikkumar911" target="_blank" rel = "noreferrer"><abbr title="My Github" className="fab fa-github"></abbr></a>
