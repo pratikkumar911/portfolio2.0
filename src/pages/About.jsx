@@ -9,51 +9,44 @@ function About() {
   const [fontSize, setFontSize] = React.useState(24);
 
   React.useEffect(() => {
-    document.querySelectorAll('.tabs a').forEach((e, index) => {
-      if (index !== 0)
-        e.classList.remove('open');
-      else
-        e.classList.add('open');
-    })
-    if (window.innerWidth < 768)
-      setFontSize(14);
+    function updateFontSize() {
+      if (window.innerWidth < 768) setFontSize(14);
+      else setFontSize(24);
+    }
+
+    updateFontSize();
+    window.addEventListener('resize', updateFontSize);
+    return () => window.removeEventListener('resize', updateFontSize);
   }, []);
 
-  window.addEventListener('resize', e => {
-    if (window.innerWidth < 768)
-      setFontSize(14);
-    else
-      setFontSize(24)
-  })
-
   const codeText = document.createElement('textarea');
-  codeText.value = ` class PratikKumar{
+  codeText.value = `class PratikKumar{
     // I love challenges
     // Currently actively solving ds and algo problems from Leetcode
     // Improving my web development skills with everyday technologies
     constructor(){
         this.name = "Pratik Kumar";
-        this.age = 22;
-        this.email = "light.moon42000@gmail.com"
-    }
-    workExperience() {
-        return [
-        { 'September 2021 - NOvember 2021': 'Web Dev intern at Hofars'),
-        { 'May 2021 - July 2021': 'Frontend intern at Sahu Tech' },
-        ]
+        this.email = "kumar.pratik42000@gmail.com"
     }
     education() {
         return [
-        'Present - 2023': 'B Tech at OUTR, Bhubaneswar, Odisha',
+          { '2019 - 2023': 'B.Tech at OUTR, Bhubaneswar, Odisha' },
         ]
     }
     skills() {
-        return [ 'HTML/CSS/JS' ,'ReactJS', 'Redux', 'NextJS', 'NodeJS' , 'C++', 'SQL/NOSQL]
+        return [
+          'Programming Languages: C++, Python, Go',
+          'Frontend: React Js, Vue Js, JavaScript, TypeScript, HTML, CSS',
+          'Backend: Node Js, Express Js',
+          'DevOps & Cloud: Docker, Kubernetes, AWS, ArgoCD, Datadog, Git, Postman',
+          'Databases: SQL, MongoDB, Snowflake'
+        ]
     }
     everydayTarget(){
-        return [{'Solve atleast 5 problems from leetcode'}, 
-        {'Discover new algorithms'}, 
-        {'Learn about new techs'}
+        return [
+          {'Solve atleast 5 problems from leetcode'}, 
+          {'Discover new algorithms'}, 
+          {'Learn about new techs'}
         ]
     }
  };`;
@@ -79,15 +72,6 @@ function About() {
         }}
         value={code}
       />
-      <h1>Wanna Know More !</h1>
-        <div className="socials">
-            <a href="https://github.com/pratikkumar911" target="_blank" rel = "noreferrer"><abbr title="My Github" className="fab fa-github"></abbr></a>
-            <a href="https://dev.to/pratik_kumar" target="_blank" rel = "noreferrer"><abbr title="My Dev" className="fab fa-dev"></abbr></a> 
-            <a href="https://www.linkedin.com/in/pratik-kumar-4675761aa/" target="_blank" rel = "noreferrer"><abbr title="My LinkedIn" className="fab fa-linkedin"></abbr></a>
-            <a href="https://codepen.io/pratik-kumar-the-lessful" target="_blank" rel = "noreferrer"><abbr title="My Codepen" className="fab fa-codepen"></abbr></a>              
-            <a href="https://drive.google.com/file/d/1wWTwPkGieu_lVPer4_lAbhqjgo70AcMa/view?usp=sharing" target="_blank" rel = "noreferrer"><abbr title="My Resume" className="far fa-file-pdf"></abbr></a>
-            <a href="https://leetcode.com/loopinfinity0/" target="_blank" rel = "noreferrer"><abbr title="My Leetcode" className="fas fa-code"></abbr></a>
-        </div>
     </div>
   )
 }
