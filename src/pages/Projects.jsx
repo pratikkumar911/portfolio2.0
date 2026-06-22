@@ -3,14 +3,7 @@ import React from 'react'
 import SingleProject from '../components/SingleProject';
 
 function Projects() {
-    React.useEffect(() => {
-        document.querySelectorAll('.tabs a').forEach((e, index) => {
-            if (index !== 1)
-                e.classList.remove('open');
-            else
-                e.classList.add('open');
-        })
-    }, [])
+    // rely on NavLink's active state instead of manually toggling classes
     
     let projects =[{
         projectname: 'Co-Vax',
