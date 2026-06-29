@@ -14,6 +14,14 @@ function Projects() {
         tools: ['NextJS', 'Tailwind CSS'],
     },
     {
+        projectname: 'Collaborative Code Editor',
+        projectthumbnail: 'https://github.com/user-attachments/assets/999b500d-3ad9-447d-93be-776f4135d55b',
+        projectdesc: 'A collaborative code editor supporting javascript runtime with multiple users.',
+        github: 'https://github.com/pratikkumar911/Collaborative-code-editor',
+        website: 'https://collaborative-code-editor-fe.onrender.com',
+        tools: ['ReactJS', 'WebSockets'],
+    },
+    {
         projectname: 'Gen-AI Resume Builder',
         projectthumbnail: 'https://github.com/user-attachments/assets/1c251ba7-f2f7-43f5-8f16-39d6a13a051b',
         projectdesc: 'An interview planner and resume build using Google Gemini API.',
