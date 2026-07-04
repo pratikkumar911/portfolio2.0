@@ -28,7 +28,16 @@ function Projects() {
         github: 'https://github.com/pratikkumar911/gen-ai-resume-builder',
         website: 'https://drive.google.com/file/d/17NJW1Zpn8_jA_OCfddQA6m1ZnOZxoQoi/view?usp=sharing',
         tools: ['ReactJS','ExpressJS','Gemini API'],
-    }]
+    },
+    {
+        projectname: 'Assistly',
+        projectthumbnail: 'https://github.com/user-attachments/assets/c5aaf3ba-9033-4dcd-a92b-996583e25a26',
+        projectdesc: 'AI Customer Support Assistant.',
+        github: 'https://github.com/pratikkumar911/support-ai',
+        website: 'https://assistly-gilt-two.vercel.app/',
+        tools: ['NextJS', 'Gemini API', 'Scalekit'],
+    }
+    ]
     return (
         <div className="projects">
             <h1>Projects</h1>
