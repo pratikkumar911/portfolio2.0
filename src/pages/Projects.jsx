@@ -36,8 +36,15 @@ function Projects() {
         github: 'https://github.com/pratikkumar911/support-ai',
         website: 'https://assistly-gilt-two.vercel.app/',
         tools: ['NextJS', 'Gemini API', 'Scalekit'],
-    }
-    ]
+    },
+    {
+        projectname: 'DocWise',
+        projectthumbnail: 'https://github.com/user-attachments/assets/8c37380e-8026-44e2-81f8-0a68927dfd7',
+        projectdesc: 'AI-powered document chat with your Google Drive files.',
+        github: 'https://github.com/pratikkumar911/drive-chatbot',
+        website: 'https://drive-chatbot-frontend.vercel.app/',
+        tools: ['React', 'FastAPI', 'Gemini AI', 'Supabase', 'pgvector'],
+    }]
     return (
         <div className="projects">
             <h1>Projects</h1>

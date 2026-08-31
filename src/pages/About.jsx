@@ -35,9 +35,9 @@ function About() {
     }
     skills() {
         return [
-          'Programming Languages: C++, Python, Go',
+          'Programming Languages: C++, Python',
           'Frontend: React Js, Vue Js, JavaScript, TypeScript, HTML, CSS',
-          'Backend: Node Js, Express Js',
+          'Backend: Node Js, Express Js, Fast API',
           'DevOps & Cloud: Docker, Kubernetes, AWS, ArgoCD, Datadog, Git, Postman',
           'Databases: SQL, MongoDB, Snowflake'
         ]
