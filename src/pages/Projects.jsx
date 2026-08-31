@@ -39,7 +39,7 @@ function Projects() {
     },
     {
         projectname: 'DocWise',
-        projectthumbnail: 'https://github.com/user-attachments/assets/8c37380e-8026-44e2-81f8-0a68927dfd7',
+        projectthumbnail: 'https://private-user-images.githubusercontent.com/77845945/643321341-8c37380e-8026-44e2-81f8-0a68927dfd76.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODgxNDY5OTIsIm5iZiI6MTc4ODE0NjY5MiwicGF0aCI6Ii83Nzg0NTk0NS82NDMzMjEzNDEtOGMzNzM4MGUtODAyNi00NGUyLTgxZjgtMGE2ODkyN2RmZDc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODMxVDAzMjQ1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIzMDY0YTA2YjZjYWYzZmQxYTE4MDI1ZTBjMzI5ODYxY2IwMjAyODQ2MGRiOWMyYmI4MzJiYmM1ZTJjOTliZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.UWEfNgH4Q7RpA0D3c_Bpc1HyzCxx87MhNHJKPyC5XvY',
         projectdesc: 'AI-powered document chat with your Google Drive files.',
         github: 'https://github.com/pratikkumar911/drive-chatbot',
         website: 'https://drive-chatbot-frontend.vercel.app/',
